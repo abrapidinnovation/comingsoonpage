@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.countdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 58%;
+  left: 36%;
+}
+.info {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  width: 20px;
+  margin: 0 auto;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.countdown-item {
+  color: rgb(55, 255, 0);
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 30px;
+  margin: 10px;
+  padding-top: 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  filter: brightness(100%);
+}
+
+.countdown-item span {
+  color: rgb(119, 195, 97);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.countdown-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  filter: brightness(100%);
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer i {
+  color: red;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+/*====== WIDTH ======*/
+.screenW {
+  width: 100vw;
+}
+.fullW {
+  width: 100%;
+}
+/*====== HEIGHT ======*/
+.screenH {
+  height: 100vh;
+}
+.fullH {
+  height: 100%;
+}
+.height70 {
+  height: 70px;
+}
+/*====== BG COLOR ======*/
+.dGray {
+  background-color: #333;
+}
+.white {
+  background-color: #fff;
+}
+.white50 {
+  background-color: #ffffff80;
+}
+.black50 {
+  background-color: #00000080;
+}
+/*====== FONT ======*/
+.fSize2 {
+  font-size: 2rem;
+}
+/*====== IMAGE ======*/
+.imgCover {
+  object-fit: cover;
+}
+/*====== OVERFLOW ======*/
+.overflowH {
+  overflow: hidden;
+}
+/*====== TRANSITIONS ======*/
+.transition1l {
+  transition: left 1s ease-in-out;
+}
+/*====== POSITION ======*/
+.abs {
+  position: absolute;
+  filter: brightness(20%);
+}
+.rel {
+  position: relative;
+}
+.left0 {
+  left: 0px;
+}
+.left100vw {
+  left: 100vw;
+}
+.leftM100vw {
+  left: -100vw;
+}
+.bot0 {
+  bottom: 0;
+}
+/*====== FLEX ======*/
+.df {
+  display: flex;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.fCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex1 {
+  flex: 1;
+}
+.flex8 {
+  flex: 8;
+  position: relative;
+}
