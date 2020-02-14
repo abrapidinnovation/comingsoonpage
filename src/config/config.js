@@ -25,12 +25,12 @@ export const slides = [
 
 export const info = {
   Heading: "COMING SOON",
-  Description: "Our website is under construction",
+  Description: "Marf Casino launching on February 14th.",
   Headingcolor: "rgb(119,195,97)"
 };
 
 export const timer = {
-  endtimerat: "02 14 2020, 6:00 am",
+  endtimerat: "02 15 2020, 12:00 am",
   timerformat: "MM DD YYYY, h:mm a"
 };
 
